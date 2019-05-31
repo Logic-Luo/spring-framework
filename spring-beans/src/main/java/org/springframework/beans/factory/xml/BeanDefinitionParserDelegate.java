@@ -430,6 +430,7 @@ public class BeanDefinitionParserDelegate {
 			}
 		}
 
+		//检查name的唯一性
 		if (containingBean == null) {
 			checkNameUniqueness(beanName, aliases, ele);
 		}
